@@ -1,2 +1,2 @@
-# ai-translator
+# uni-translator
 An OpenAI-compatible Translator
