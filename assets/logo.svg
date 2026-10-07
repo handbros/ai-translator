@@ -1,0 +1,32 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  width="1024"
+  height="1024"
+  viewBox="0 0 64 64"
+  fill="none"
+  role="img"
+  aria-labelledby="logo-title logo-description"
+>
+  <title id="logo-title">Uni Translator</title>
+  <desc id="logo-description">Two speech bubbles on a blue rounded square</desc>
+
+  <rect x="2" y="2" width="60" height="60" rx="15" fill="#2563EB" />
+
+  <path
+    fill="#FFFFFF"
+    d="M12 15.5A7.5 7.5 0 0 1 19.5 8h20a7.5 7.5 0 0 1 7.5 7.5v11a7.5 7.5 0 0 1-7.5 7.5H28l-9.5 7v-7A7.5 7.5 0 0 1 12 26.5v-11Z"
+  />
+  <path
+    fill="#2563EB"
+    d="M20 19a2 2 0 0 1 2-2h15a2 2 0 1 1 0 4H22a2 2 0 0 1-2-2Zm0 7a2 2 0 0 1 2-2h9a2 2 0 1 1 0 4h-9a2 2 0 0 1-2-2Z"
+  />
+
+  <path
+    fill="#BFDBFE"
+    d="M24 38.5a7.5 7.5 0 0 1 7.5-7.5h13a7.5 7.5 0 0 1 7.5 7.5v9a7.5 7.5 0 0 1-7.5 7.5H43v6l-8-6h-3.5a7.5 7.5 0 0 1-7.5-7.5v-9Z"
+  />
+  <path
+    fill="#1D4ED8"
+    d="M31 41a2 2 0 0 1 2-2h11a2 2 0 1 1 0 4H33a2 2 0 0 1-2-2Zm0 7a2 2 0 0 1 2-2h7a2 2 0 1 1 0 4h-7a2 2 0 0 1-2-2Z"
+  />
+</svg>
