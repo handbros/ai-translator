@@ -1,0 +1,6 @@
+.agents
+AGENTS.md
+dist
+knowledges
+node_modules
+pnpm-lock.yaml

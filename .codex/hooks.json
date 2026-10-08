@@ -1,0 +1,18 @@
+{
+  "description": "Uni Translator 작업 완료 전 포맷 및 검증 훅",
+  "hooks": {
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "node \"$(git rev-parse --show-toplevel)/.codex/hooks/stop-verify.mjs\"",
+            "commandWindows": "powershell -NoProfile -Command \"$root = git rev-parse --show-toplevel; node (Join-Path $root '.codex/hooks/stop-verify.mjs')\"",
+            "timeout": 600,
+            "statusMessage": "Formatting and verifying Uni Translator"
+          }
+        ]
+      }
+    ]
+  }
+}

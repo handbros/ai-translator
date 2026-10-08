@@ -1,0 +1,23 @@
+{
+  "name": "uni-translator",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "packageManager": "pnpm@11.24.0",
+  "scripts": {
+    "dev": "pnpm --filter @uni-translator/frontend dev",
+    "build": "pnpm -r --if-present build",
+    "build:docs": "pnpm --filter @uni-translator/docs build",
+    "format": "prettier --write .",
+    "format:check": "prettier --check .",
+    "lint": "oxlint .",
+    "test": "pnpm -r --if-present test",
+    "verify": "pnpm run format:check && pnpm run lint && pnpm run test && pnpm run build"
+  },
+  "devDependencies": {
+    "oxlint": "^1.87.0",
+    "prettier": "^3.9.9",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.3"
+  }
+}
