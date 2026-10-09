@@ -1,2 +1,3 @@
-# uni-translator
-An OpenAI-compatible Translator
+# Uni Translator
+
+텍스트, 이미지, 문서, 음성 번역을 지원하는 오픈소스 다목적 번역 워크스페이스를 제공합니다.

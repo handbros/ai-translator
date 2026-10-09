@@ -1,3 +1,3 @@
 export function App() {
-  return <main>Uni Translator</main>;
+    return <main>Uni Translator</main>;
 }
